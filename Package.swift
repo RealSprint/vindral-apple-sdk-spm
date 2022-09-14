@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
     name: "VindralStreaming",
     platforms: [
-        .iOS("v13.3"),
-        .tvOS(.v14),
+      .iOS("13.3"),
+      .tvOS(.v14),
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VindralStreaming",
-            url: "https://applesdk.vindral.com/tag/0.0.1/VindralStreaming.zip",
-            checksum: "561374800db05dd125ad950a95edd9be0ffee4fb909a75c35ad12ecc921a70ef"),
+            url: "https://applesdk.vindral.com/tag/0.0.2/VindralStreaming.zip",
+            checksum: "eb2b8e1c78783405d380f76537b57e9f5cfc9e035a67405b13566a716224fb2b"),
     ]
 )
