@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VindralStreaming",
-            url: "https://applesdk.vindral.com/tag/1.0.10/VindralStreaming.zip",
-            checksum: "3f58a914fc2af58fb39fd02e49f057b576c251d75e30d21a7fb9346f27949144"),
+            url: "https://applesdk.vindral.com/tag/1.0.11/VindralStreaming.zip",
+            checksum: "799a65149ec7701a091628b6433709a1d821927f402d86e455491157dc20659e"),
     ]
 )
